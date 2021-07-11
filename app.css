@@ -487,3 +487,54 @@ header.shrink {
   font-size: 2rem;
   color: var(--txt-white);
 }
+
+footer {
+  background-color: var(--second-color);
+  margin-top: 90px;
+  padding-bottom: 60px;
+}
+
+.footer-description {
+  margin: 30px 0;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials > li ~ li {
+  margin-left: 20px;
+}
+
+.socials > li > a {
+  font-style: 1.5rem;
+}
+
+.socials > li > a:hover {
+  color: var(--txt-white);
+}
+
+.footer-menu > li ~ li {
+  margin-top: 20px;
+}
+
+.footer-menu > li > a {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.footer-menu > li > a:hover {
+  color: var(--txt-white);
+}
+
+.subscribe-form > input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--txt-white);
+}
